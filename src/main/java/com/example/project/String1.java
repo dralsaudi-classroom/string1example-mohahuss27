@@ -30,8 +30,6 @@ public class String1 {
             append(s.getChar(i));
     }
     public boolean equal(String1 s) {
-        if(s.length() != size)
-		return false;
 	for(int i = 0; i < s.length(); i++){
 		if(s.getChar(i) != str[i])
 			return false;
